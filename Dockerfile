@@ -28,7 +28,7 @@ RUN set -ex \
     yaml-dev \
     zlib-dev \
   && gem install jekyll \
-  && apk del .build-deps \
+  && apk del .build-deps
 
 VOLUME /src
 EXPOSE 4000
