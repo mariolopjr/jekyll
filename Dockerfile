@@ -30,8 +30,8 @@ RUN set -ex \
   && gem install jekyll \
   && apk del .build-deps
 
-VOLUME /src
+VOLUME /srv
 EXPOSE 4000
 
-WORKDIR /src
+WORKDIR /srv
 ENTRYPOINT ["jekyll"]
