@@ -27,7 +27,7 @@ RUN set -ex \
     tar \
     yaml-dev \
     zlib-dev \
-  && gem install jekyll \
+  && gem install jekyll -v 3.1.6 \
   && apk del .build-deps
 
 VOLUME /srv
