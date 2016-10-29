@@ -1,4 +1,4 @@
-FROM ruby:2.1-alpine
+FROM ruby:2.3-alpine
 MAINTAINER mario@techmunchies.net
 
 RUN set -ex \
